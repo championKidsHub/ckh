@@ -31,7 +31,10 @@ function Subscribe() {
       </header>
       <div className="subscribe-container">
         <form onSubmit={handleSubmit}>
-          <h1>Join the Champions - Download Your Starter Kit Today!</h1>
+          <h1>
+            Begin Your Child's Champion Journey: Claim the Free Starter Kit
+            Today!
+          </h1>
           <input
             type="text"
             value={name}
@@ -54,12 +57,12 @@ function Subscribe() {
         </p>
       </div>
 
-      <div class="contact-info">
+      <footer class="contact-info">
         <p>
           Have questions? Get in touch at{" "}
           <a href="mailto:info@championkidshub.com">info@championkidshub.com</a>
         </p>
-      </div>
+      </footer>
     </div>
   );
 }

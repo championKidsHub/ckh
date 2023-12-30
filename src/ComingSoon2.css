@@ -1,0 +1,141 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Domine', serif;
+    color: #333;
+}
+
+/* Page Container */
+.page-container {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #8E42D3 0%, #D46975 100%);
+    color: #fff;
+    font-family: 'Domine', serif;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Left Content Section */
+.left-section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.left-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.left-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Feature Highlights */
+.feature-highlights {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.feature-highlights h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.feature-highlights ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.feature-highlights li {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonials */
+.testimonials p {
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Right Form Section */
+.right-section {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 40px;
+}
+
+.right-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Notification Form */
+#notify-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#notify-form input,
+#notify-form button {
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#notify-form button {
+    background-color: #4DB8AC;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#notify-form button:hover {
+    background-color: #3A9492;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .right-section {
+        padding: 20px;
+    }
+
+    .left-section h1 {
+        font-size: 2rem;
+    }
+
+    .feature-highlights h3 {
+        font-size: 1.2rem;
+    }
+
+    .right-section h2 {
+        font-size: 1.5rem;
+    }
+}

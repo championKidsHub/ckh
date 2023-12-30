@@ -8,7 +8,7 @@ function ComingSoon() {
         <img src={logo} alt="Logo" className="logo" />
       </header>
       <main className="main-content">
-        <h1>Coming Soon</h1>
+        <h1>Get Ready to Inspire Greatness: Launching Soon!</h1>
       </main>
     </div>
   );
