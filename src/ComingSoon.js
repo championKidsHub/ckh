@@ -18,7 +18,7 @@ function ComingSoon() {
       <script
         src="https://embed.acuityscheduling.com/js/embed.js"
         type="text/javascript"
-      ></script>{" "}
+      ></script>
     </div>
   );
 }
