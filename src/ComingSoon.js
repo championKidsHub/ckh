@@ -8,6 +8,11 @@ function ComingSoon() {
         <img src={logo} alt="Logo" className="logo" />
       </header>
       <main className="main-content"></main>
+      <p class="quotes">
+        "The first step towards getting somewhere is to decide you're not going
+        to stay where you are." - J.P. Morgan"
+      </p>
+
       <iframe
         src="https://app.acuityscheduling.com/schedule.php?owner=31096105"
         title="Schedule Appointment"
