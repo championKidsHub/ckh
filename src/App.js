@@ -3,6 +3,9 @@ import ComingSoon from "./ComingSoon";
 import Subscribe2 from "./Subscribe2";
 import Subscribe from "./Subscribe";
 import ComingSoon2 from "./ComingSoon2";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 function App() {
   return <ComingSoon />;

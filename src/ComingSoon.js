@@ -1,5 +1,8 @@
 import "./App.css";
 import logo from "./default-monochrome.svg";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 function ComingSoon() {
   return (
@@ -9,8 +12,8 @@ function ComingSoon() {
       </header>
       <main className="main-content"></main>
       <p class="quotes">
-        "The first step towards getting somewhere is to decide you're not going
-        to stay where you are." - J.P. Morgan"
+        The first step towards getting somewhere is to decide you're not going
+        to stay where you are. - J.P. Morgan
       </p>
 
       <iframe
