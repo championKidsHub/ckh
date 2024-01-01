@@ -1,8 +1,5 @@
 import "./App.css";
 import logo from "./default-monochrome.svg";
-import { inject } from "@vercel/analytics";
-
-inject();
 
 function ComingSoon() {
   return (
@@ -12,9 +9,18 @@ function ComingSoon() {
       </header>
       <main className="main-content"></main>
       <p class="quotes">
-        The first step towards getting somewhere is to decide you're not going
-        to stay where you are. - J.P. Morgan
+        "The secret of getting ahead is getting started." – Mark Twain
       </p>
+
+      <a
+        href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FMagicalResolutionTemplate.pdf?alt=media&token=a303ff37-e97e-453f-a1cd-1757e8bc289c"
+        download="MagicalResolutionTemplate_ChampionKidsHub.pdf"
+        class="download-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download Magical Resolution Template
+      </a>
 
       <iframe
         src="https://app.acuityscheduling.com/schedule.php?owner=31096105"

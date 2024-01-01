@@ -63,3 +63,36 @@
   /* background-color: rgba(255, 255, 255, 0.1); */
   padding: 8px;
 }
+
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  /* Green background */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+
+  /* Shadows for 3D effect */
+  box-shadow: 0 4px #999;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+  /* Darker green background on hover */
+  transform: translateY(-2px);
+  /* Slight raise */
+}
+
+.download-button:active {
+  background-color: #45a049;
+  box-shadow: 0 2px #666;
+  /* Shadow adjustment for pressed effect */
+  transform: translateY(2px);
+}
