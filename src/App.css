@@ -96,3 +96,18 @@
   /* Shadow adjustment for pressed effect */
   transform: translateY(2px);
 }
+
+/* Alternative button style */
+.alternative-button {
+  background-color: #008CBA;
+  /* Blue background */
+}
+
+.alternative-button:hover {
+  background-color: #0077A9;
+  /* Darker blue on hover */
+}
+
+.alternative-button:active {
+  background-color: #0077A9;
+}

@@ -25,7 +25,7 @@ function ComingSoon() {
       <a
         href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FMostImportantTask.pdf?alt=media&token=abff32fd-326d-4bd4-8699-9c4ce0c3acd4"
         download="MostImportantTask_ChampionKidsHub.pdf"
-        class="download-button"
+        class="download-button alternative-button"
         target="_blank"
         rel="noopener noreferrer"
       >
