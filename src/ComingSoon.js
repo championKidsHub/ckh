@@ -12,14 +12,14 @@ function ComingSoon() {
         "The secret of getting ahead is getting started." – Mark Twain
       </p>
 
-      <a
+      {/* <a
         href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FMagicalResolutionTemplate.pdf?alt=media&token=a303ff37-e97e-453f-a1cd-1757e8bc289c"
         download="MagicalResolutionTemplate_ChampionKidsHub.pdf"
         class="download-button"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download Magical Resolution Template
+        Magical Resolution
       </a>
 
       <a
@@ -29,7 +29,17 @@ function ComingSoon() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download Most Important Task Template
+        Most Important Task
+      </a> */}
+
+      <a
+        href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FConsistency%20Tracker.pdf?alt=media&token=9d476dca-d222-4a52-9234-a1ee6d5e455c"
+        download="ConsistencyTracker_ChampionKidsHub.pdf"
+        class="download-button alternative-button1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download Consistency Tracker
       </a>
 
       <iframe
