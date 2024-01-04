@@ -41,6 +41,15 @@ function ComingSoon() {
       >
         Download Consistency Tracker
       </a>
+      <a
+        href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FReframing_ChampionKidsHub.pdf.pdf?alt=media&token=391c7f41-30d0-489f-a243-5366efbfdc33"
+        download="Reframing_ChampionKidsHub.pdf"
+        class="download-button alternative-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download Reframing for Success
+      </a>
 
       <iframe
         src="https://app.acuityscheduling.com/schedule.php?owner=31096105"
