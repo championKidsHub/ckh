@@ -140,6 +140,12 @@ body {
         width: 90%;
         /* Slightly less than full width for aesthetics */
     }
+
+    .subscribe-container input {
+        font-size: 16px;
+
+    }
+
 }
 
 .kit-description, .benefits, .testimonials, .privacy-policy, .contact-info {
