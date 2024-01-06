@@ -28,7 +28,7 @@
 
 .container {
   text-align: center;
-  background: linear-gradient(180deg, #8E42D3 0%, #D46975 100%);
+  /* background: linear-gradient(180deg, #8E42D3 0%, #D46975 100%); */
 
   /* Centers text */
   height: 100vh;

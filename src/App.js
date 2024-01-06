@@ -8,9 +8,9 @@ import { inject } from "@vercel/analytics";
 inject();
 
 function App() {
-  return <ComingSoon />;
+  // return <ComingSoon />;
   // return <ComingSoon2 />;
-  // return <Subscribe />;
+  return <Subscribe />;
   // return <Subscribe2 />;
 }
 

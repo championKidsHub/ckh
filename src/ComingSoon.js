@@ -33,15 +33,16 @@ function ComingSoon() {
       </a> */}
 
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FConsistency%20Tracker.pdf?alt=media&token=9d476dca-d222-4a52-9234-a1ee6d5e455c"
-        download="ConsistencyTracker_ChampionKidsHub.pdf"
+        href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FSMART_Path_ChampionKidshub.pdf?alt=media&token=9abe1cde-0574-417e-9e3e-f85099ca8f6e"
+        download="SMART_Path_ChampionKidshub.pdf"
         class="download-button alternative-button1"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download Consistency Tracker
+        Download SMART Path
       </a>
-      <a
+
+      {/* <a
         href="https://firebasestorage.googleapis.com/v0/b/championkidshub.appspot.com/o/public%2FReframing_ChampionKidsHub.pdf.pdf?alt=media&token=391c7f41-30d0-489f-a243-5366efbfdc33"
         download="Reframing_ChampionKidsHub.pdf"
         class="download-button alternative-button"
@@ -49,9 +50,9 @@ function ComingSoon() {
         rel="noopener noreferrer"
       >
         Download Reframing for Success
-      </a>
+      </a> */}
 
-      <iframe
+      {/* <iframe
         src="https://app.acuityscheduling.com/schedule.php?owner=31096105"
         title="Schedule Appointment"
         width="100%"
@@ -61,7 +62,18 @@ function ComingSoon() {
       <script
         src="https://embed.acuityscheduling.com/js/embed.js"
         type="text/javascript"
-      ></script>
+      ></script> */}
+
+      {/* <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfHY1BopXhFIVB1m-ohz2BHVRD4xyRJeBmYB1Ka9nc_BvKz7g/viewform?embedded=true"
+        width="640"
+        height="1541"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe> */}
 
       <footer class="contact-info">
         <p>
